@@ -388,6 +388,7 @@ h6, .h6 {
 p {
   margin-top: 0;
   margin-bottom: 1rem;
+  color: black;
 }
 
 abbr[title],
@@ -11562,11 +11563,12 @@ color: black;
 #buttom-freeway {
   background-color:#6883BA;
   color: white;
+  border: none;
 }
 #buttom-freeway:hover {
-  background-color: white;
+  background-color:transparent;
   color:black;
-  border: none;
+  border:solid white 2px;
 
 }
  .card-p{
@@ -11579,7 +11581,15 @@ background-color: #C3BEF7;
   background-color:#80ED99;
 }
 footer {
-
   background-color: white;
+}
+.btn-button {
+  background-color:#6883BA;
+  color: white;
+}
+.btn-button:hover{
+  background-color: transparent;
+  color: black;
+  border: solid white 2px;
 
 }
